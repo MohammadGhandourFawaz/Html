@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to the page</title>
+</head>
+<body>
+    <form action="/process_data.php"method="POST">
+        <label for="email">Email:</label>
+        <input type ="text" id="name"  name="name"/>
+        <label for ="password">Password:</label>
+        <input type="text" id="email" name="email"/>
+       <button type="submit" >Submit</button>
+    </form>
+</body>
+</html>
